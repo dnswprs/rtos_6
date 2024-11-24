@@ -1,7 +1,7 @@
-# Sistem Kontrol LED Multi-Thread dengan FreeRTOS
+# Percobaan Mengeliminasi Resource Contention dengan Menghentikan Scheduler
 
 ## Tentang Proyek
-Proyek ini merupakan implementasi sistem embedded menggunakan STM32 yang mendemonstrasikan penggunaan FreeRTOS untuk mengelola multiple LED dalam lingkungan multi-threading. Program ini dirancang untuk menunjukkan konsep konkurensi dan pengelolaan sumber daya bersama (shared resources) dalam sistem embedded.
+Proyek ini merupakan implementasi sistem embedded menggunakan STM32 yang mendemonstrasikan penggunaan FreeRTOS untuk mengelola multiple LED dalam lingkungan multi-threading. Program ini dirancang untuk menunjukkan konsep konkurensi dan pengelolaan sumber daya bersama (shared resources) dalam sistem embedded. Melalui implementasi multiple task yang mengakses shared resource, proyek ini mengilustrasikan bagaimana penggunaan critical section secara efektif mengeliminasi kemungkinan race condition,
 
 ## Fitur Utama
 - Implementasi multi-threading dengan FreeRTOS
